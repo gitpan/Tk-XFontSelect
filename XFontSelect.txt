@@ -5,7 +5,7 @@ SYNOPSIS
       use Tk;
       use Tk::XFontSelect;
 
-      my $fontdialog = $mw -> FontSelect;
+      my $fontdialog = $mw -> XFontSelect;
       my $font = $fontdialog -> Show;
 
 DESCRIPTION
@@ -23,5 +23,5 @@ SEE ALSO
 VERSION INFO
     First Release Version
 
-    $Revision: 0.43 $
+    $Revision: 0.44 $
 
